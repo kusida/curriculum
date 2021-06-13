@@ -31,12 +31,12 @@ public class Task1_2 {
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
         System.out.println(strArray[1]);
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
-         *  intArrayの変数に10, 20, 30, 40, 50が入っている
+         *  intArrayの配列に10, 20, 30, 40, 50が入っている
          */
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // intArrayの１番の２０と４番の５０を出力する
+        // intArrayの１番の２０と４番の５０を合計した数字を出力する
         System.out.println(intArray[1] + intArray[4]);
 
     }
