@@ -11,23 +11,18 @@ class User {
     private String password;
 
     // コンストラクタ
-    public User() {
-        this.userName = "hoge";
-        this.id = 123;
-        this.password = "abc123";
+    public User(String userName, int id, String password) {
+    	this.userName = userName;
+        this.id = id;
+        this.password = password;
     }
 
     // ① 以下のルールに従いアカウント情報（名前、ID、パスワード）を出力するメソッドを作成してください。
     // アクセス修飾子:「protected」
     // メソッド名:「printAccountInfo」
-    public void name() {
-    System.out.println("ユーザー名は、"+this.userName);
-    }
-    public void id() {
-    System.out.println("IDは"+this.id);
-    }
-   
     protected String printAccountInfo() {
+    	System.out.println("ユーザー名は"+userName);
+    	System.out.println("IDは"+id);
     	return this.password;
     	
     }
