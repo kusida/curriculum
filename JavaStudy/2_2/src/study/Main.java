@@ -22,6 +22,6 @@ public class Main {
     	
     	
         // ② ①のインスタンス変数より、アカウント情報をコンソール出力するメソッドを呼び出しなさい。
-    	 System.out.println("パスワードは、"+user.printAccountInfo());
+    	 user.printAccountInfo();
     }
 }
