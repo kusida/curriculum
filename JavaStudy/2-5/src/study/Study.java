@@ -30,7 +30,7 @@ public class Study {
  
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * キーのshohinList.get(1)に180の値が入っている
+         * キーのshohinList.get(1)に牛乳が入っていて値が180の数字がになる
          *
          */
         LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
