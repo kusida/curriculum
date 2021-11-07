@@ -10,9 +10,9 @@ public class Check {
 	String firstName="櫛田";
 	String lastName="諒";
 	
-	String printName = plus(firstName,lastName);
 	
-	print(printName);
+	System.out.println(printName(firstName, lastName));
+	
 	
 	
 	Pet pet = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
@@ -24,13 +24,11 @@ public class Check {
 	 
 	}
 	
-	private static String plus(String firstName, String lastName){
+	private static String printName(String firstName, String lastName){
 	return firstName + lastName;
 	}
 	
-	public static void print(String printName) {
-        System.out.println(printName);
-    }
+	
 	
 	
 
