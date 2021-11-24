@@ -40,7 +40,7 @@
     width: 100px;
     height: 150px;  
     background-color: #ff9e6b;
-    float: right;
+    float :right;
 }
 
 .center-down{
