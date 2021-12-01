@@ -3,6 +3,42 @@
 .pc{
     width:300px;
 }
+
+.header{
+    width:300px;
+}
+
+
+.left{
+    width: 100px;
+    float: left;
+}
+
+.center-up{
+    width: 125px;
+    float :left;
+}
+
+.center{
+    width: 125px;
+    float :left;
+}
+
+.right{
+    width: 75px;
+    height: 150px;  
+}
+
+.center-down{
+    width: 200px;
+    float: left;
+}
+
+.footer{
+    width: 300px;
+    float: left;
+}
+
 }
 
 @media screen and (max-width: 479px) {
@@ -10,4 +46,44 @@
 .sp{
     width:479px;
 }
+
+.header{
+    width:150px;
+    float: none;
+}
+
+
+.left{
+    width:150px;
+    float: none;
+}
+
+.right{
+    width:150px;
+    float:none;
+}
+
+.center-up{
+    width:150px;
+    float: none;
+
+}
+
+.center{
+    width:150px;
+    float: none;
+}
+
+
+.center-down{
+    width:150px;
+    float: none;
+}
+
+.footer{
+    width:150px;
+    float: none;
+}
+
+
 }
