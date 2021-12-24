@@ -1,0 +1,93 @@
+.warpper{
+    width: 400px;
+    height: 450px;  
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+.header{
+    float: left;
+    width: 400px;
+    height: 100px;  
+    background-color: #141f40;
+}
+
+.header-box{
+    width: 160px;
+    height: 60px;  
+    margin:20px 25px 20px 215px;
+    background-color: white;
+}
+
+.h-left{
+    float: left;
+    width: 40px;
+    height: 40px; 
+    margin:10px 5px 10px 10px;
+    background-color:#a9004b
+}
+
+.h-center{
+    float: left;
+    width: 40px;
+    height: 40px; 
+    margin:10px 5px 10px 5px;
+    background-color:#a9004b
+}
+
+.h-right{
+    float: left;
+    width: 40px;
+    height: 40px; 
+    margin:10px 10px 10px 5px;
+    background-color:#a9004b
+}
+
+.left{
+    width: 150px;
+    height: 250px;  
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right{
+    width: 250px;
+    height: 250px;  
+    background-color: #8c2727;
+    float: right;
+}
+
+.right-top{
+    width: 140px;
+    height: 40px;  
+    margin:40px 60px 5px 40px;
+    border:solid 5px white;
+    background-color: #ff863f;
+}
+
+.right-center{
+    width: 140px;
+    height: 40px;  
+    margin:5px 60px 5px 40px;
+    border:solid 5px white;
+    background-color: #ff863f;
+}
+
+.right-down{
+    width: 140px;
+    height: 40px;  
+    margin:5px 60px 40px 40px;
+    border:solid 5px white;
+    background-color: #ff863f;
+}
+
+.footer{
+    width: 400px;
+    height: 100px;  
+    background-color: #d98d30;
+    float: left;
+}
