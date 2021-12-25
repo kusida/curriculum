@@ -58,31 +58,34 @@
     width: 250px;
     height: 250px;  
     background-color: #8c2727;
-    float: right;
+    float: left;
 }
 
 .right-top{
     width: 140px;
     height: 40px;  
-    margin:40px 60px 5px 40px;
+    margin:40px 60px 0px 40px;
     border:solid 5px white;
     background-color: #ff863f;
+    float: left;
 }
 
 .right-center{
     width: 140px;
     height: 40px;  
-    margin:5px 60px 5px 40px;
+    margin:10px 60px 0px 40px;
     border:solid 5px white;
     background-color: #ff863f;
+    float: left;
 }
 
 .right-down{
     width: 140px;
     height: 40px;  
-    margin:5px 60px 40px 40px;
+    margin:10px 60px 40px 40px;
     border:solid 5px white;
     background-color: #ff863f;
+    float: left;
 }
 
 .footer{
@@ -90,4 +93,9 @@
     height: 100px;  
     background-color: #d98d30;
     float: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
