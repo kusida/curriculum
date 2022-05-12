@@ -8,12 +8,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div class="header">login
+<div class="warpper">
+	<div class="header">
+	login
 		 <% Date date = new Date();
 		      SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 		      String formatDate = sdf.format(date);%>
 		 <%= formatDate %>
-	 </div>
+	</div>
+</div>	
+	
 
 </body>
 </html> 

@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div>hoge.Inc</div>
+<div class="warpper">
+<div class="footer">hoge.Inc</div>
+</div>
 <!-- フッターを作成 -->
 </body>
 </html>

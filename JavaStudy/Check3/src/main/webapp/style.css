@@ -1,0 +1,29 @@
+
+.sp{
+        width:479px;
+}
+
+
+.warpper{
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+.header{
+width:767px;
+background-color:gray;
+display:inline-block;
+padding:10px;
+color:white;
+padding:10px;
+font-size:10px;
+}
+
+.footer{
+width:767px;
+background-color:gray;
+display:inline-block;
+padding:10px;
+color: white;
+}

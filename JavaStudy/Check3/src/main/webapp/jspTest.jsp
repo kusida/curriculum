@@ -4,25 +4,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <link rel="stylesheet"  href="css/stylecss.css"/>
+ <link rel="stylesheet"  href="style.css"/>
 <title>Insert title here</title>
 </head>
 <body>
 
 <!-- name、idの入力エリアを作成しなさい -->
-
+ <div class="sp">
 <%@ include file="header.jsp"%>
-<div class="warpper">
  <div>
-                <label>社員番号　: </label>
+                <label>name: </label>
                 <input id="empId" type="text" name="empId" maxlength="5" value=""><br>
             </div>
             <div>
-                <label>パスワード: </label>
+                <label>id: </label>
                 <input id="password" type="password" name="password" value=""><br>
             </div>
+<%@ include file="footer.jsp"%>
 </div>
-<div class="footer"><%@ include file="footer.jsp"%></div>
 
 </body>
 </html>
